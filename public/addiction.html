@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project node.js</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/addiction.css">
+    <link rel="stylesheet" href="/style/newAct.css">
+</head>
+<body>
+    <img class="sky" src="/img/sky1.jpg" alt="">
+    <header>
+        <a class="planner" href="/index.html"><img class="home" src="/img/home.png" alt="">Daily Planner</a>
+        <a class="planner" href="/addiction.html">Твои привычки</a>
+        <a class="planner" href="/contacts.html"><img class="home" src="/img/contact.png" alt="">Контакты</a>
+    </header>
+    <h1><img src="/img/cloud.png" alt="">Вредные привычки<img src="/img/cloud.png" alt=""></h1>
+   <div class="container1">
+    <button class="show" onclick="showAdds()">Показать мои привычки</button>
+    <div class="choiseCont">
+        Хочешь поговорить?
+        <div>
+            <button onclick="yes0()">Да</button>
+            <button onclick="no0()">Нет</button>
+        </div>
+    </div>
+    <div id="catalog1"></div>
+
+   </div>
+    <footer class="footer">
+            <div class="waves">
+              <div class="wave" id="wave1"></div>
+              <div class="wave " id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="menu">
+              <li class="menu__item"><a class="menu__link" href="/index.html">Home</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+              <li class="menu__item"><a class="menu__link" href="/contacts.html">Contact</a></li>
+            </ul>
+            <p>&copy;2024 Katya Lapikova | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+<script src="/script1.js"></script>

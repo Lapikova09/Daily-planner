@@ -1,0 +1,127 @@
+body{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+}
+
+.container{
+    padding: 30px 30px 50px 30px;
+    background-color: #fffffffc;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 700px;
+    border-radius: 25px;
+}
+
+.litCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sky{
+    position: fixed;
+    z-index: -1;
+}
+
+h1{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(228, 242, 254) ;
+    border-radius: 20px;
+}
+
+.activity{
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    font-family: "Noto Serif", serif;
+    background-color: #c1ffff ;
+    color: #006089 ;
+    border: 3px solid #00c1ff ;
+    border-radius: 10px ;
+    padding: 15px 10px ; 
+    transition: all 0.8s ease ;
+    font-size: 24px;
+}
+
+button:hover{
+    text-decoration: none; 
+    background-color: #006089;
+    color: #ffeded ;
+    border-color: #006089 ;
+}
+
+.green{
+    background-color: rgb(153, 251, 150);
+}
+
+.red{
+    background-color: rgb(160, 188, 211) ;
+}
+
+.new{
+    background-color: #c1ffff ;
+    color: #006089 ;
+    border: 3px solid #00c1ff ;
+    border-radius: 10px ;
+    padding: 15px 10px ; 
+    transition: all 0.8s ease ;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.delete{   
+    display: flex;
+}
+
+.butCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dataCont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dinText{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    align-items: center;
+}
+
+.filt{
+    height: 80px;
+    width: 85px;
+}
+
+.filt img{
+    width: 50px;
+    height: 50px;
+}
+
+.ch{
+    background-color: #c1ffff ;
+    color: #006089 ;
+    border-radius: 10px ;
+    padding: 15px 10px ; 
+    transition: all 0.8s ease ;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 24px;
+    font-family: "Noto Serif", serif;
+    width: 275px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}

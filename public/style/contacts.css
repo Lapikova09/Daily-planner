@@ -1,0 +1,48 @@
+.contContainer{
+    padding: 100px 30px 50px 30px;
+    background-color: #fffffffc;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.text{
+    width: 400px;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(228, 242, 254) ;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 265px;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMedia a {
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
+
+.socialMedia img {
+    margin-right: 20px;
+}
+
+.socialMediaText{
+    font-family: "Noto Serif", serif;
+    padding: 15px 10px ; 
+    font-size: 24px;
+    color: #006089 ;
+    text-decoration: none;
+}
